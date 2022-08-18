@@ -1,0 +1,379 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar
+{
+    
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999999999;
+    
+    
+}
+.navbar-brand
+{
+    padding-left: 20px;
+}
+.header
+{
+    background-image: url(img/hero-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100vh;
+   
+}
+.header-mm
+{
+    
+    width: 30px;
+    height: 30px;
+    background-color: darkmagenta;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    border-radius: 50%;
+
+    /* position: fixed;
+    
+    color:#fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #09c;
+    bottom: 0;
+    right: 0; */
+}
+.lear
+{
+    position: relative; 
+    background-color: rgba(44, 46, 46, 0.2);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lear h1
+{
+    color:#fff;
+    font-weight: 700;
+    font-size: 400%;
+    display: block;
+}
+.lear h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+    color:#fff;
+
+}
+.lear h2::after
+{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing
+{
+    6%{content: " D|";}
+    13%{content: " De|";}
+    18%{content: " Des|";}
+    24%{content: " Desi|";}
+    30%{content: " Desig|";}
+    37%{content: " Design|";}
+    43%{content: " Designe|";}
+    50%{content: " Designer|";}
+    56%{content: "Designe |";}
+    62%{content: " Design|";}
+    69%{content: " Desig|";}
+    75%{content: " Desi|";}
+    81%{content: " Des|";}
+    87%{content: " De|";}
+    93%{content: " D|";}
+    100%{content: " |";}
+
+}
+
+
+section
+{
+    
+    text-align: center;
+    
+}
+section.row
+{
+    height: 80vh;
+}
+section .inear
+{
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow:  13px 8px -10px rgba(208, 24, 24, 0.1);
+}
+.about-bdri
+{
+    
+    height: 2px;
+    width: 100px;
+    
+    background-color: #ff206e;
+
+}
+.footer-bdri
+{
+    height: 2px;
+    width: 100px;
+    
+    background-color: #09c;
+}
+.bdri
+{
+    height: 2px;
+    width: 100px;
+    margin: auto;
+    background-color: #ff206e;
+}
+section i
+{
+    border: rgb(222, 219, 219) 5px solid;
+    border-radius: 50%;
+    padding: 20px;
+    transition: background-color  2s;
+    color: cadetblue;
+}
+section i:hover
+{
+    background-color: rgb(60, 60, 219);
+    color: #fff;
+    border: rgb(112, 139, 194) solid;
+}
+.serves
+{
+    
+    
+    
+    background-image: url(img/counters-bg.jpg);
+    background-size: cover;
+    
+    background-attachment: fixed;
+    background-position: center;
+}
+.serves i
+{
+    border: rgb(222, 219, 219) 5px solid;
+    border-radius: 50%;
+    padding: 20px;
+    transition: background-color  2s;
+    color: cornflowerblue;
+}
+
+.serves i:hover
+{
+    background-color: rgb(60, 60, 219);
+    color: #fff;
+}
+.lear-serves
+{
+    background-color: rgba(101, 8, 231, 0.5);
+ 
+}
+.lear-serves p
+{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+.portfolio
+{
+    text-align: center;
+}
+.card
+{
+    overflow: hidden;
+}
+.photo
+{
+    
+    transition: transform 1s;
+}
+.photo:hover
+{
+    
+    transform: scale(1.1);
+}
+.card-body
+{
+  position: relative;
+
+
+}
+.card-butn
+{
+    border: #09c 1px none;
+    color: #fff;
+    width: 100px;
+    background-color: #09c;
+    padding: 2px 1px;
+    position: absolute;
+    top: -16px;
+    right: 23px;
+    left: 23px;
+}
+.card-body i
+{
+    
+    border: blue 3px solid;
+    padding: 5px;
+    border-radius: 50%;
+    color: blue;
+}
+.carousel
+{
+    height: 70vh;
+    background-image: url(img/overlay-bg\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.carousel-lear
+{
+    height: 70vh;
+    background-color: rgba(55, 60, 194, 0.5);
+}
+.carousel-inner
+{
+    text-align: center;
+  
+    
+}
+.carousel-item img
+{
+    border: #fff 2px solid;
+    border-radius: 50%;
+    
+}
+.carousel-item
+{
+    text-align: center;
+    
+}
+.carousel-item p
+{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 500;
+}
+.carousel-item h5{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 700;
+}
+.post-info 
+{
+    display: inline-block;
+    float:left;
+}
+.post-info img
+{
+    width: 32px;
+    height: 32px;
+    border: rgba(255, 255, 255, 0.3) 2px solid;
+    border-radius: 50%;
+}
+.post-info:hover
+{
+    color: rgb(43, 43, 233);
+}
+.post-date
+{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+.body
+{
+    
+    
+    background-image: url(img/overlay-bg\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer-content
+{
+    padding-top: 5%;
+}
+
+.footer-lear
+{
+    
+    background-color: rgba(21, 95, 199, 0.5);
+}
+.footer-icon
+{
+    text-align: center;
+    border: rgba(255, 255, 255, 0.3) 2px solid;
+    border-radius: 50%;
+    
+}
+.text
+{
+    height: 150px;
+}
+.btn 
+{
+    border-radius: 30px;
+    padding: 10px;
+    transition: all 1s;
+    
+}
+.btn:hover
+{
+    background-color: rgb(13, 193, 253);
+    color: rgb(234, 242, 245);
+}
+.footer-icons
+{
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-left: 8px;
+    width: 35px;
+    height: 35px;
+    border: rgba(26, 184, 233, 0.3) solid 1px;
+    border-radius: 50%;
+    background-color:#fff;
+    transition: all 0.5s;
+}
+.footer-icons:hover
+{
+    background-color: #09c;
+    color: #fff;
+}
+.paragraph
+{
+    line-height: 40px;
+}
+.end
+{
+    padding-top:2%;
+    height: 15vh;
+    background-color: #09c;
+    text-align: center;
+    
+}
